@@ -21,10 +21,10 @@
 
             label = "Base";
             bindings = <
-&kp TAB    &kp Q       &kp W  &kp E     &kp R      &kp T        &kp Y    &kp U            &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL  &mt LGUI A  &kp S  &kp D     &kp F      &kp G        &kp H    &kp J            &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z       &kp X  &kp C     &kp V      &kp B        &kp N    &kp M            &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                              &kp LGUI  &lt 1 TAB  &kp SPACE    &kp RET  &lt 2 BACKSPACE  &kp RALT
+&kp TAB    &kp Q       &kp W  &kp E     &kp R      &kp T          &kp Y    &kp U            &kp I      &kp O    &kp P     &kp BSPC
+&kp LCTRL  &mt LGUI A  &kp S  &kp D     &kp F      &kp G          &kp H    &kp J            &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z       &kp X  &kp C     &kp V      &kp B          &kp N    &kp M            &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+                              &kp LGUI  &lt 1 TAB  &lt 2 SPACE    &kp RET  &lt 2 BACKSPACE  &kp RALT
             >;
         };
 
@@ -40,7 +40,7 @@
 &kp TAB    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_SEL 3    &bt BT_SEL 4    &kp N7   &kp N8  &kp N9    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSPC
 &kp COMMA  &kp EQUAL     &kp MINUS     &kp KP_MULTIPLY  &kp LEFT_SHIFT  &kp PERIOD      &kp N4   &kp N5  &kp N6    &kp SEMICOLON     &kp EQUAL          &kp LEFT_PARENTHESIS
 &kp LSHFT  &bt BT_CLR    &kp SLASH     &to 2            &to 1           &to 0           &kp N1   &kp N2  &kp N3    &kp GRAVE         &kp BACKSLASH      &kp RIGHT_PARENTHESIS
-                                       &kp LGUI         &trans          &kp SPACE       &kp RET  &trans  &kp RALT
+                                       &kp LGUI         &kp ESC         &kp SPACE       &kp RET  &kp N0  &kp RALT
             >;
         };
 
@@ -53,10 +53,10 @@
 
             label = "Raise";
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH       &kp DLLR          &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &trans    &trans  &kp LESS_THAN  &kp GREATER_THAN  &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans    &trans  &trans         &trans            &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                             &kp LGUI       &trans            &kp SPACE    &kp RET    &trans     &kp RALT
+&kp TAB    &kp EXCL       &kp AT            &kp HASH          &kp DLLR           &kp PRCNT    &kp CARET  &kp AMPS       &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp BSPC
+&kp LCTRL  &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans       &kp LEFT   &kp DOWN       &kp UP           &kp RIGHT  &kp BSLH  &kp GRAVE
+&kp LSHFT  &trans         &trans            &to 2             &to 1              &to 0        &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP      &kp END    &kp PIPE  &kp TILDE
+                                            &kp LGUI          &trans             &kp SPACE    &kp RET    &trans         &kp RALT
             >;
         };
     };
